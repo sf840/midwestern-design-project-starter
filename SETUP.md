@@ -61,6 +61,18 @@ Open Claude Code in the project folder and say what you're working on. Claude re
 - *"What's still unknown on this project?"* Claude reads the open questions and `INDEX.md`.
 - *"I'm done for today."* Claude offers to update `INDEX.md` and save your work.
 
+## Tips for keeping your repository tidy
+
+You never need to type Git commands. Say these things to Claude in plain words.
+
+- **Save in small steps.** Say "save my work" at natural stopping points, like after a meeting write-up or a finished brief. Small saves are easy to understand and easy to undo.
+- **Give separate pieces of work their own branch.** A branch is a separate copy of your work, so changes to one thing don't mix with another. Say *"start a new branch for the onboarding research"*. When you're finished, say *"switch back to the main branch"*. If you work on several small things at once, use one branch for each.
+- **One project, one repository, one folder.** Always open the project's own folder in Claude Code, not the folder above it.
+- **Ask before you fix.** If something looks wrong, say *"what's changed since my last save?"* before trying anything. Every save is kept, so very little is ever truly lost.
+- **Undo with a new save, not by erasing.** Say *"undo my last save"*. Claude adds a new save that reverses it. It never deletes your history.
+- **Keep it private and keep it light.** Don't paste passwords, tokens or full chat exports into the folder. Store summaries and links. Claude will flag anything that looks out of place before it saves.
+- **Working on two computers?** Say *"get the latest"* before you start, so you begin from your newest work.
+
 ## Connect Figma
 
 1. In Claude Code, open **Settings** → **Connectors** (or **MCP servers**).
