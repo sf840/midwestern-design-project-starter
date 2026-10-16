@@ -6,6 +6,10 @@ This is a starter folder for a design project's written record: what the project
 
 **You don't need to know Git, GitHub or the terminal.** Claude handles those.
 
+When you're done you'll have a private folder for one design project, with its status, decisions, briefs and research written down, and Claude set up to keep it current.
+
+**You need:** a free [GitHub](https://github.com) account, and the Claude desktop app with its **Code** tab, signed in with your work account.
+
 ### Start in five steps
 
 1. **Make your copy.** On this page, click the green **Use this template** button, then **Create a new repository**. Leave the owner as your own GitHub account. Name it after the client and project (for example `acme-checkout-redesign`). Choose **Private**. Click **Create repository**.
@@ -25,6 +29,8 @@ Paste this into Claude Code:
 ---
 
 # {{CLIENT}}: {{PROJECT}}
+
+*The placeholders below are filled in during setup.*
 
 {{ONE_OR_TWO_SENTENCES}}
 
