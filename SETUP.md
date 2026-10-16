@@ -8,7 +8,7 @@ Time needed: about 20 minutes the first time, 10 for later projects.
 
 You need three things. If you already have them, skip ahead.
 
-1. **A personal GitHub account.** There is no design organization yet, so projects live in your own account. Send your GitHub username to Steven so he can give you access to the template, which is private.
+1. **A personal GitHub account.** It's free: github.com. There is no design organization yet, so projects live in your own account.
 2. **Claude Code.** Use the Claude desktop app and open its **Code** tab. Sign in with your work account.
 3. **A Figma account** with access to the project's Figma file, if one exists yet.
 
@@ -16,7 +16,7 @@ You don't need to install Git or anything else. If Claude says something is miss
 
 ## Step 1: Make your copy of the template
 
-1. Open the template's GitHub page in your browser: https://github.com/sf840/midwestern-design. If you get a "not found" page, you haven't been given access yet. Ask Steven.
+1. Open the template's GitHub page in your browser: https://github.com/sf840/midwestern-design-project-starter. Make sure you're signed in to GitHub.
 2. Click the green **Use this template** button, then **Create a new repository**.
 3. **Owner:** your own GitHub account.
 4. **Name:** the client and project, in lowercase with dashes. For example `acme-checkout-redesign`.
@@ -83,7 +83,7 @@ Linear is the default for our own tasks. If the client's tasks are in Jira, ask 
 
 | What happened | What to do |
 |---|---|
-| "Use this template" button isn't there, or the page says "not found" | You may not have access. Send your GitHub username to Steven. |
+| "Use this template" button isn't there | Sign in to GitHub first. If the page says "not found", the template may still be private. Ask Steven. |
 | Claude can't clone the repository | Say *"sign me in to GitHub"* and follow what it says. If that doesn't work, tell your design lead. |
 | Claude doesn't start the setup when you say "start" | Paste the fallback prompt from the top of `README.md`. |
 | Claude seems to know nothing about the project | You probably opened the wrong folder. Open the project folder itself, not the one above it. |
