@@ -13,9 +13,9 @@ When you're done you'll have a private folder for one design project, with its s
 ### Start in five steps
 
 1. **Make your copy.** On this page, click the green **Use this template** button, then **Create a new repository**. Leave the owner as your own GitHub account. Name it after the client and project (for example `acme-checkout-redesign`). Choose **Private**. Click **Create repository**.
-2. **Get it onto your computer.** Open Claude Code and say: *"Clone my new repository into my Documents folder. Here's the link:"* and paste the page's link.
+2. **Get it onto your computer.** On your new repository's page, click **Code**, open the **GitHub CLI** tab, copy the command, and run it in the Terminal app. If it doesn't work, open Claude Code and say: *"Clone my new repository into my Documents folder. Here's the link:"* and paste the page's link.
 3. **Open the folder.** In Claude Code, open the new folder (the one named after your project). It has to be this folder, not the one above it.
-4. **Say "start".** Claude will ask a short list of questions about the project and fill everything in. It takes about 10 minutes. Answer "I don't know yet" whenever that's true.
+4. **Say "start".** If Claude doesn't begin, say "read the repo and start setup". Claude will ask a short list of questions about the project, starting with your name, and fill everything in. It takes about 10 minutes. Answer "I don't know yet" whenever that's true.
 5. **Say "save my work".** Claude backs it up to GitHub.
 
 The longer guide, with what to do if a step doesn't work, is in [`SETUP.md`](SETUP.md).

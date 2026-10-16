@@ -27,11 +27,12 @@ You now have your own copy. The template itself is never changed.
 
 ## Step 2: Get it onto your computer
 
-1. Open Claude Code.
-2. Say: *Clone my new repository into my Documents folder.* Then paste the page's link (copy it from your browser's address bar).
-3. Claude will do it and tell you where the folder is.
+1. On your new repository's page, click the green **Code** button and open the **GitHub CLI** tab.
+2. Copy the command shown there, paste it into the Terminal app, and press Return. It creates a folder with your project's name on your computer.
 
-If Claude asks you to sign in to GitHub, follow what it says. This happens once.
+**If that command doesn't work** (for example Terminal says `gh: command not found`), open Claude Code and say: *Clone my new repository into my Documents folder.* Then paste the page's link from your browser's address bar. Claude does it and tells you where the folder is.
+
+If GitHub asks you to sign in, follow what it says. This happens once.
 
 ## Step 3: Open the project folder in Claude Code
 
